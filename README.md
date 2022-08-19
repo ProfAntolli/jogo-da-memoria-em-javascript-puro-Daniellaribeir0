@@ -1,1 +1,62 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8235353&assignment_repo_type=AssignmentRepo)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Jogo da memória</title>
+</head>
+<body>
+  <main class="memory-game">
+     <div class="card" data-card="bowser"> 
+      <img src="./img/bowser.png" alt="Face da carta" class="card-front">
+      <img src="./img/box.png" alt="Verso da carta" class="card-back">
+    </div> 
+      <div class="card" data-card="luigi"> 
+      <img src="./img/luigi.png" alt="Face da carta" class="card-front"> 
+      <img src="./img/box.png" alt="Verso da carta" class="card-back">
+    </div>
+      <div class="card" data-card="mario">
+      <img src="./img/mario.png" alt="Face da carta" class="card-front"> 
+        <img src="./img/box.png" alt="Verso da carta" class="card-back">
+    </div> 
+    <div class="card" data-card="peach"> 
+      <img src="./img/peach.png" alt="Face da carta" class="card-front">
+      <img src="./img/box.png" alt="Verso da carta" class="card-back"> 
+    </div> 
+    <div class="card" data-card="toad">
+      <img src="./img/toad.png" alt="Face da carta" class="card-front">
+      <img src="./img/box.png" alt="Verso da carta" class="card-back"> 
+    </div>
+    <div class="card" data-card="yoshi">
+      <img src="./img/yoshi.png" alt="Face da carta" class="card-front">
+      <img src="./img/box.png" alt="Verso da carta" class="card-back">
+    </div>
+    <div class="card" data-card="bowser">
+      <img src="./img/bowser.png" alt="Face da carta" class="card-front">
+      <img src="./img/box.png" alt="Verso da carta" class="card-back"> 
+    </div>
+    <div class="card" data-card="luigi">
+      <img src="./img/luigi.png" alt="Face da carta" class="card-front"> 
+      <img src="./img/box.png" alt="Verso da carta" class="card-back"> 
+    </div>
+    <div class="card" data-card="mario"> 
+      <img src="./img/mario.png" alt="Face da carta" class="card-front"> 
+      <img src="./img/box.png" alt="Verso da carta" class="card-back">
+    </div>
+    <div class="card" data-card="peach"> 
+      <img src="./img/peach.png" alt="Face da carta" class="card-front"> 
+      <img src="./img/box.png" alt="Verso da carta" class="card-back">
+    </div> 
+    <div class="card" data-card="toad">
+      <img src="./img/toad.png" alt="Face da carta" class="card-front">
+      <img src="./img/box.png" alt="Verso da carta" class="card-back">
+    </div>
+    <div class="card" data-card="yoshi"> 
+      <img src="./img/yoshi.png" alt="Face da carta" class="card-front"> 
+      <img src="./img/box.png" alt="Verso da carta" class="card-back">
+    </div> 
+  </main>
+  <script src="./script.js">
+  </script></body>
+</html>
